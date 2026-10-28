@@ -137,17 +137,30 @@ export const EDUCATION_ITEMS: EducationItem[] = [
 
 export const EXPERIENCE_ITEMS: ExperienceItem[] = [
   {
-    id: "cloud-automation-eng",
-    role: "AWS Cloud & Automation Specialist",
-    period: "2022 - Present",
-    description: "Specializing in cloud infrastructure provisioning, web scrapers, automated bot scripting, and Express.js analytical tools.",
+    id: "siet-assistant-professor",
+    role: "Assistant Professor",
+    organization: "Dept of AI&DS, Shridevi Institute of Engineering and Technology, Tumakuru",
+    period: "October 2026 - Present",
+    description: "Teaching and mentoring undergraduate engineering students in Artificial Intelligence and Data Science (AI&DS), curriculum innovation, lab instruction, and academic research.",
     achievements: [
-      "Certified AWS Cloud Practitioner focusing on cloud architecture and automated deployments.",
-      "Engineered automated social media engagement systems with 100+ likes/subscriptions and 500+ auto comments.",
-      "Developed Express.js analytics engines parsing real-time IMDb ratings and BookMyShow audience feedback.",
-      "Contributed 3+ open-source tools to GitHub and completed 50+ individual technical projects."
+      "Mentoring engineering students in Artificial Intelligence, Machine Learning, Deep Learning, and Data Science.",
+      "Leading practical lab sessions in modern computing paradigms, Python programming, and model training.",
+      "Guiding academic engineering projects, research papers, and technical symposiums."
     ],
-    technologies: ["AWS", "Express.js", "Node.js", "Puppeteer", "Cheerio", "Python", "Docker"]
+    technologies: ["Artificial Intelligence", "Data Science", "Machine Learning", "Python", "Deep Learning", "Cloud Systems"]
+  },
+  {
+    id: "shritek-software-engineer",
+    role: "Software Engineer",
+    organization: "Shritek Innovations",
+    period: "June 2023 – Oct 2026",
+    description: "Full-stack web application development, cloud infrastructure automation, and data scraping solutions.",
+    achievements: [
+      "Engineered full-stack responsive web systems and backend microservices with Express.js and Node.js.",
+      "Implemented cloud automation and deployment workflows with AWS.",
+      "Built resilient web scrapers and automation engines using Puppeteer and Cheerio."
+    ],
+    technologies: ["AWS", "Express.js", "Node.js", "React", "Puppeteer", "Cheerio", "Docker"]
   }
 ];
 
